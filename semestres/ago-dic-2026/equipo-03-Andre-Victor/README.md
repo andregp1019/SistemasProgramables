@@ -10,9 +10,7 @@
 
 ## 📸 Evidencia del Circuito Físico
 *Montaje de componentes en protoboard para validación de hardware.*
-
-> *[Inserta aquí tu foto del circuito, por ejemplo: `![Circuito Protoboard](Circuito.jpg)`]*
-
+![Circuito Protoboard](Circuito.jpg)
 ---
 
 ## 📊 Tabla HALL (Hardware Abstraction Layer)
