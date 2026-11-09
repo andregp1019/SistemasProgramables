@@ -20,12 +20,11 @@ Especificación técnica de los pines físicos, tópicos de comunicación y rang
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **1** | Sensor PIR | Sensor | `GPIO 13` | `auraguard/sensores/pir` | — | Binario | `0` o `1` |
 | **2** | Sensor Ultrasónico | Sensor | `Trig: 12 / Echo: 14` | `auraguard/sensores/distancia` | — | cm | `2.0 - 400.0` |
-| **3** | Receptor IR (Control) | Sensor | `GPIO 5` | `auraguard/estado/alerta` | — | Código HEX | `0xffa25d` (Armar) / `0xff629d` (Desarmar) |
-| **4** | Servomotor (SG90) | Actuador | `GPIO 27` | — | `auraguard/actuadores/servo` | Grados | `0° - 90°` |
+| **3** | Receptor IR (Control) | Sensor | `GPIO 19` | `auraguard/estado/alerta` | — | Código HEX | `0xffa25d` (Armar) / `0xff629d` (Desarmar) |
+| **4** | Servomotor (SG90) | Actuador | `GPIO 5` | — | `auraguard/actuadores/servo` | Grados | `0° - 90°` |
 | **5** | Zumbador Pasivo | Actuador | `GPIO 15` | — | `auraguard/actuadores/zumbador` | Hz | `0` o `2000 Hz` |
-| **6** | Módulo Relé | Actuador | `GPIO 4` | — | `auraguard/actuadores/rele` | Binario | `0` o `1` |
-| **7** | ESP32-CAM | Cámara | `Cámara Integrada`| `auraguard/cam/frame` | — | JPEG | N/A |
----
+| **6** | Módulo Relé | Actuador | `GPIO 18` | — | `auraguard/actuadores/rele` | Binario | `0` o `1` |
+| **7** | ESP32-CAM | Cámara | `Cámara Integrada` | `auraguard/cam/frame` | — | JPEG | N/A |
 
 ## 💻 Evidencias de Ejecución y Monitoreo MQTT
 
