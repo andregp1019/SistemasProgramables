@@ -1,0 +1,15 @@
+MODELOS OPCIONALES PARA MAYOR PRECISION (deteccion SSD, la de la clase)
+=======================================================================
+Si estos dos archivos estan en esta carpeta, el servidor usa la red neuronal SSD.
+Si NO estan, usa el detector Haar que ya trae opencv-python (funciona, pero es menos preciso).
+
+1) deploy.prototxt
+   https://github.com/opencv/opencv/blob/master/samples/dnn/face_detector/deploy.prototxt
+   (abrir y usar el boton "Raw" / "Download raw file")
+
+2) res10_300x300_ssd_iter_140000.caffemodel
+   https://github.com/opencv/opencv_3rdparty  (buscar la carpeta "dnn_samples_face_detector_20170830")
+
+Los nombres deben quedar EXACTAMENTE asi:
+   servidor/modelos/deploy.prototxt
+   servidor/modelos/res10_300x300_ssd_iter_140000.caffemodel
